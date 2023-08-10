@@ -1,0 +1,75 @@
+
+.header {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header progress {
+    width: 65%;
+    height: 30px;
+}
+
+.header span.on {
+    color: #37d237;
+}
+
+.header span.off {
+    color: red;
+}
+
+.meeting-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meeting-buttons button {
+    height: 100px;
+    width: 40%;
+}
+
+.sabotages {
+    margin-top: 20px;
+    padding: 15px 0;
+    border: 2px red solid;
+    border-radius: 8px;
+}
+
+.sabotages button {
+    width: 90%;
+    height: 70px;
+}
+
+.sabotages button:first-child {
+    margin-bottom: 10px;
+}
+
+.task-list {
+    text-align: left;
+    margin: 40px 0 35px 0;
+}
+
+.task-item {
+    font-size: 1.5rem;
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 19px -10px;
+}
+
+.task-item input {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.task-item label {
+   flex: 1;
+}
+
+.inline-notification {
+    width: 100%;
+    background-color: rgba(197, 63, 63, 0.89);
+    color: #ffffff;
+    padding: 5px;
+
+}
